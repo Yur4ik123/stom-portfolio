@@ -185,6 +185,23 @@
             line-height: 32px;
             text-align: center;
             max-width: 820px; }
+          @media (max-width: 992px) {
+            .stom__portfolio .stom__wrapper .second__section .tasks__items .task__item .task__number {
+              width: 80px;
+              height: 80px;
+              margin-bottom: 0; }
+              .stom__portfolio .stom__wrapper .second__section .tasks__items .task__item .task__number:before {
+                height: 50px; }
+              .stom__portfolio .stom__wrapper .second__section .tasks__items .task__item .task__number:after {
+                height: 23px; }
+              .stom__portfolio .stom__wrapper .second__section .tasks__items .task__item .task__number span {
+                font-size: 20px;
+                line-height: 20px;
+                width: 40px;
+                height: 40px; }
+            .stom__portfolio .stom__wrapper .second__section .tasks__items .task__item .task__title {
+              font-size: 16px;
+              line-height: 22px; } }
           .stom__portfolio .stom__wrapper .second__section .tasks__items .task__item .fonts__colors {
             margin-bottom: 100px; }
             .stom__portfolio .stom__wrapper .second__section .tasks__items .task__item .fonts__colors .colors {
@@ -336,6 +353,23 @@
           line-height: 32px;
           text-align: center;
           max-width: 820px; }
+        @media (max-width: 992px) {
+          .stom__portfolio .stom__wrapper .stom__adaptive .adaptive__wrapper .task__number {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 0; }
+            .stom__portfolio .stom__wrapper .stom__adaptive .adaptive__wrapper .task__number:before {
+              height: 50px; }
+            .stom__portfolio .stom__wrapper .stom__adaptive .adaptive__wrapper .task__number:after {
+              height: 23px; }
+            .stom__portfolio .stom__wrapper .stom__adaptive .adaptive__wrapper .task__number span {
+              font-size: 20px;
+              line-height: 20px;
+              width: 40px;
+              height: 40px; }
+          .stom__portfolio .stom__wrapper .stom__adaptive .adaptive__wrapper .task__title {
+            font-size: 16px;
+            line-height: 22px; } }
         .stom__portfolio .stom__wrapper .stom__adaptive .adaptive__wrapper .task__number:before {
           height: 70px; }
         .stom__portfolio .stom__wrapper .stom__adaptive .adaptive__wrapper .task__title {
@@ -404,6 +438,23 @@
           line-height: 32px;
           text-align: center;
           max-width: 820px; }
+        @media (max-width: 992px) {
+          .stom__portfolio .stom__wrapper .stom__all_display .all_display__wrapper .task__number {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 0; }
+            .stom__portfolio .stom__wrapper .stom__all_display .all_display__wrapper .task__number:before {
+              height: 50px; }
+            .stom__portfolio .stom__wrapper .stom__all_display .all_display__wrapper .task__number:after {
+              height: 23px; }
+            .stom__portfolio .stom__wrapper .stom__all_display .all_display__wrapper .task__number span {
+              font-size: 20px;
+              line-height: 20px;
+              width: 40px;
+              height: 40px; }
+          .stom__portfolio .stom__wrapper .stom__all_display .all_display__wrapper .task__title {
+            font-size: 16px;
+            line-height: 22px; } }
         .stom__portfolio .stom__wrapper .stom__all_display .all_display__wrapper .task__number:before {
           height: 70px; }
         .stom__portfolio .stom__wrapper .stom__all_display .all_display__wrapper .task__title {
@@ -487,6 +538,23 @@
           line-height: 32px;
           text-align: center;
           max-width: 820px; }
+        @media (max-width: 992px) {
+          .stom__portfolio .stom__wrapper .stom_results .stom__results_wrapper .task__number {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 0; }
+            .stom__portfolio .stom__wrapper .stom_results .stom__results_wrapper .task__number:before {
+              height: 50px; }
+            .stom__portfolio .stom__wrapper .stom_results .stom__results_wrapper .task__number:after {
+              height: 23px; }
+            .stom__portfolio .stom__wrapper .stom_results .stom__results_wrapper .task__number span {
+              font-size: 20px;
+              line-height: 20px;
+              width: 40px;
+              height: 40px; }
+          .stom__portfolio .stom__wrapper .stom_results .stom__results_wrapper .task__title {
+            font-size: 16px;
+            line-height: 22px; } }
       .stom__portfolio .stom__wrapper .stom_results .results__wrapper {
         display: flex;
         justify-content: flex-end;
@@ -578,6 +646,23 @@
         line-height: 32px;
         text-align: center;
         max-width: 820px; }
+      @media (max-width: 992px) {
+        .stom__portfolio .stom__wrapper .stom__tech .tech__wrapper .task__number {
+          width: 80px;
+          height: 80px;
+          margin-bottom: 0; }
+          .stom__portfolio .stom__wrapper .stom__tech .tech__wrapper .task__number:before {
+            height: 50px; }
+          .stom__portfolio .stom__wrapper .stom__tech .tech__wrapper .task__number:after {
+            height: 23px; }
+          .stom__portfolio .stom__wrapper .stom__tech .tech__wrapper .task__number span {
+            font-size: 20px;
+            line-height: 20px;
+            width: 40px;
+            height: 40px; }
+        .stom__portfolio .stom__wrapper .stom__tech .tech__wrapper .task__title {
+          font-size: 16px;
+          line-height: 22px; } }
       .stom__portfolio .stom__wrapper .stom__tech .tech__wrapper .tech__items {
         max-width: 600px;
         display: grid;
@@ -598,5 +683,106 @@
           font-size: 20px;
           line-height: 32px;
           color: #6D7279; }
+
+@media (max-width: 1700px) {
+  .stom__portfolio .stom__wrapper {
+    padding-bottom: 50px; }
+
+  .stom__portfolio .stom__wrapper .second__section .ellipse {
+    position: absolute;
+    top: -160px;
+    left: -1; }
+  .stom__portfolio .stom__wrapper .second__section .brr {
+    right: 0;
+    transform: translateX(50%);
+    z-index: -1; }
+  .stom__portfolio .stom__wrapper .second__section .zub {
+    position: absolute;
+    left: 0;
+    transform: translateX(-20%);
+    top: 900px;
+    z-index: -1; }
+  .stom__portfolio .stom__wrapper .second__section .ellipse2 {
+    position: absolute;
+    top: 750px;
+    right: -2; }
+  .stom__portfolio .stom__wrapper .second__section .tasks__items {
+    z-index: 5; }
+    .stom__portfolio .stom__wrapper .second__section .tasks__items .task__item {
+      z-index: 5; } }
+@media (max-width: 1250px) {
+  .stom__portfolio .stom__wrapper .main__screen .main__image .main__instr {
+    display: none; }
+  .stom__portfolio .stom__wrapper .second__section .brr {
+    opacity: 0.3; }
+  .stom__portfolio .stom__wrapper .second__section .zub {
+    opacity: 0.3; } }
+@media (max-width: 992px) {
+  .stom__portfolio .stom__wrapper .ellipse {
+    display: none !important; }
+  .stom__portfolio .stom__wrapper .section__header {
+    font-size: 30px;
+    line-height: 34px;
+    margin-bottom: 20px !important; }
+  .stom__portfolio .stom__wrapper .main__screen {
+    padding-top: 30px; }
+    .stom__portfolio .stom__wrapper .main__screen .top__bar {
+      margin-bottom: 50px; }
+      .stom__portfolio .stom__wrapper .main__screen .top__bar .item {
+        font-size: 16px;
+        line-height: 18px; }
+    .stom__portfolio .stom__wrapper .main__screen .main__title .subtitle {
+      font-size: 20px;
+      line-height: 24px; }
+    .stom__portfolio .stom__wrapper .main__screen .main__title .page__header {
+      font-size: 50px;
+      line-height: 60px; }
+  .stom__portfolio .stom__wrapper .second__section .ellipse {
+    display: none; }
+  .stom__portfolio .stom__wrapper .second__section .ellipse2 {
+    display: none; }
+  .stom__portfolio .stom__wrapper .second__section .tasks__items .task__item {
+    margin-bottom: 50px; }
+    .stom__portfolio .stom__wrapper .second__section .tasks__items .task__item .fonts__colors {
+      margin-bottom: 30px; } }
+@media (max-width: 768px) {
+  .stom__portfolio {
+    font-size: 16px;
+    line-height: 20px; }
+
+  .stom__portfolio .stom__wrapper .main__screen {
+    padding-top: 30px; }
+    .stom__portfolio .stom__wrapper .main__screen .top__bar {
+      margin-bottom: 30px; }
+      .stom__portfolio .stom__wrapper .main__screen .top__bar .item {
+        font-size: 14px;
+        line-height: 16px; }
+    .stom__portfolio .stom__wrapper .main__screen .main__title {
+      margin-bottom: 37px; }
+      .stom__portfolio .stom__wrapper .main__screen .main__title .subtitle {
+        font-size: 18px;
+        line-height: 22px; }
+      .stom__portfolio .stom__wrapper .main__screen .main__title .page__header {
+        font-size: 42px;
+        line-height: 50px; }
+  .stom__portfolio .stom__wrapper .second__section .tasks__items .task__item .fonts__colors .colors {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px; }
+  .stom__portfolio .stom__wrapper .second__section .tasks__items .task__item .fonts__colors .fonts {
+    grid-gap: 20px; }
+    .stom__portfolio .stom__wrapper .second__section .tasks__items .task__item .fonts__colors .fonts .font__item .font__family {
+      font-size: 20px;
+      line-height: 24px; }
+    .stom__portfolio .stom__wrapper .second__section .tasks__items .task__item .fonts__colors .fonts .font__item.mons .letter {
+      font-size: 92px;
+      line-height: 106px; }
+    .stom__portfolio .stom__wrapper .second__section .tasks__items .task__item .fonts__colors .fonts .font__item.pant .letter {
+      font-size: 97px;
+      line-height: 106px; } }
+@media (max-width: 576px) {
+  .stom__portfolio .stom__wrapper .second__section .tasks__items .task__item .fonts__colors .fonts .font__item .font__family {
+    min-height: 48px; }
+  .stom__portfolio .stom__wrapper .second__section .tasks__items .task__item .fonts__colors .fonts .font__item .font__weight {
+    grid-gap: 10px; } }
 
 /*# sourceMappingURL=main.css.map */
