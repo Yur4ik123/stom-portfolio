@@ -718,6 +718,40 @@
   .stom__portfolio .stom__wrapper .second__section .zub {
     opacity: 0.3; } }
 @media (max-width: 992px) {
+  .stom__portfolio .stom__wrapper .stom__tech .tech__wrapper .tech__items .item:first-child {
+    border-right: none; }
+  .stom__portfolio .stom__wrapper .stom__tech .tech__wrapper .tech__items .item .tech__header {
+    font-size: 18px;
+    line-height: 22px; }
+  .stom__portfolio .stom__wrapper .stom__tech .tech__wrapper .tech__items .item .tech__title {
+    font-size: 16px;
+    line-height: 18px; }
+  .stom__portfolio .stom__wrapper .stom_results {
+    padding-top: 70px; }
+    .stom__portfolio .stom__wrapper .stom_results .results__wrapper {
+      flex-direction: column-reverse; }
+      .stom__portfolio .stom__wrapper .stom_results .results__wrapper .left__side {
+        padding-top: 20px;
+        flex-basis: initial;
+        min-width: initial;
+        padding-right: 0;
+        display: flex;
+        justify-content: center; }
+        .stom__portfolio .stom__wrapper .stom_results .results__wrapper .left__side img {
+          width: 60%; }
+      .stom__portfolio .stom__wrapper .stom_results .results__wrapper .right_side {
+        padding-top: 185px;
+        flex-basis: initial;
+        min-width: initial;
+        max-width: initial; }
+        .stom__portfolio .stom__wrapper .stom_results .results__wrapper .right_side ul {
+          margin: 0 -15px;
+          width: 100vw;
+          padding: 30px 25px 30px 45px; }
+          .stom__portfolio .stom__wrapper .stom_results .results__wrapper .right_side ul li {
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 15px; }
   .stom__portfolio .stom__wrapper .ellipse {
     display: none !important; }
   .stom__portfolio .stom__wrapper .section__header {
@@ -748,8 +782,13 @@
 @media (max-width: 768px) {
   .stom__portfolio {
     font-size: 16px;
-    line-height: 20px; }
+    line-height: 20px;
+    padding-bottom: 40px; }
 
+  .stom__portfolio .stom__wrapper .stom__adaptive {
+    padding-top: 70px; }
+  .stom__portfolio .stom__wrapper .stom__all_display {
+    padding: 80px 0; }
   .stom__portfolio .stom__wrapper .main__screen {
     padding-top: 30px; }
     .stom__portfolio .stom__wrapper .main__screen .top__bar {
